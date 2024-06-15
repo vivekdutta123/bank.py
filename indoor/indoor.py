@@ -2,3 +2,4 @@
 message=input("enter a message- ")
 a=message.lower()
 print(a)
+
