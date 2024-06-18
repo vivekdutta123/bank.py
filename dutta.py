@@ -1,3 +1,3 @@
 a="banana"
-b=fruit[1]
+b=a[0]
 print(b)
