@@ -1,3 +1,3 @@
-a=input("enter your name=")
-b=a.upper()
+a="banana"
+b=fruit[1]
 print(b)
