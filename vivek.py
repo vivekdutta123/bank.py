@@ -4,4 +4,5 @@ b=int("enter a number:-")
 c=int("enter a number:-")
 if a>b:
     print("maximum")
-    
+elif:
+
