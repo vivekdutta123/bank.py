@@ -18,5 +18,5 @@ find_maximum(a, b, c)
 #for loop
 fruit="banana"
 for char in fruit:
-    print(char)
+    print(fruit)
 
