@@ -7,5 +7,7 @@ if a>b or a>c:
 elif b>a or b>c:
     print(" b is maximum")
 elif c>a or c>b:
-    print(")
+    print("c is maximum ")
+else:
+    ("minimum")
 
