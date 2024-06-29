@@ -1,2 +1,0 @@
-a="banana"
-len(a)
