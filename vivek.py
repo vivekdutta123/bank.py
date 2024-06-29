@@ -1,12 +1,12 @@
-#code to find max of three numbers.
-a=int("enter a number:-")
-b=int("enter a number:-")
-c=int("enter a number:-")
-if a>b or a>c:
+.
+a=int(input("enter a number:-"))
+b=int(input("enter a number:-"))
+c=int(input("enter a number:-"))
+if a>=b and a>=c:
     print(" a is maximum")
-elif b>a or b>c:
+elif b>=a and b>c:
     print(" b is maximum")
-elif c>a or c>b:
+elif c>=a and c>=b:
     print("c is maximum ")
 else:
     ("minimum")
