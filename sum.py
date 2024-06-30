@@ -6,5 +6,6 @@
        # total_sum += b
     #print("Sum of entered numbers:", total_sum)
 #sum()
-
-
+a=int(input("enter something:-"))
+b=a.reverse()
+print(b)
