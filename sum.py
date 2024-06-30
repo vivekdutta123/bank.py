@@ -6,7 +6,3 @@
        # total_sum += b
     #print("Sum of entered numbers:", total_sum)
 #sum()
-a = input("enter something:-")
-b = a[::-1]
-print(b)
-
