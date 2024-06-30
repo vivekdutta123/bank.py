@@ -1,4 +1,4 @@
-a = "Monty Python"
-b = a[0:5]
+a = input("enter something:-")
+b = a[::-1]
 print(b)
 
