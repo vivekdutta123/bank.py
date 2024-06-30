@@ -6,6 +6,5 @@
        # total_sum += b
     #print("Sum of entered numbers:", total_sum)
 #sum()
-def sum():
-    a=
+
 
