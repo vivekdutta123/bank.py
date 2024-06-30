@@ -6,6 +6,7 @@
        # total_sum += b
     #print("Sum of entered numbers:", total_sum)
 #sum()
-a="Monty Python'
-b=a[0:5]
-print("b")
+a = input("enter something:-")
+b = a[::-1]
+print(b)
+
