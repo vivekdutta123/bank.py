@@ -1,4 +1,5 @@
-file=open("myfile.txt","w") # w refers to open for writing, truncting the first file .
+file=open("myfile.txt","w")
+# w refers to open for writing, truncting the first file .
 file.write("Hellow how are you. I think you love coding lets begain with python.")
 file.close()
 file=open("distinationfile.txt","w")
@@ -7,6 +8,7 @@ file.close()
 file_to_read="myfile.txt"
 write_to_file="destination.txt"
 file=open(file_to_read,"r")
+#r open for reading
 data=file.read()
 file.close
 with open(write_to_file,"a")as file:
