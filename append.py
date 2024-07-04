@@ -1,5 +1,5 @@
 file=open("myfile.txt","w") # w refers to open for writing, truncting the first file .
-file.write("more information")
+file.write("Hellow how are you. I think you love coding lets begain with python.")
 file.close()
 file=open("distinationfile.txt","w")
 file.write("all copid information")
