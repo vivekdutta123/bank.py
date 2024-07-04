@@ -1,4 +1,4 @@
-file=open("myfile.txt","w")
+file=open("myfile.txt","w") # w refers to open for writing, truncting the first file .
 file.write("more information")
 file.close()
 file=open("distinationfile.txt","w")
