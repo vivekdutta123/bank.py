@@ -12,5 +12,6 @@ file=open(file_to_read,"r")
 data=file.read()
 file.close
 with open(write_to_file,"a")as file:
+    #a is appending 
     file.write(data)
 print("completed")
