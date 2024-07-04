@@ -1,4 +1,4 @@
-string_list = ["BANANA", "APPLE", "CHERRY","Auxin"]
+string_list = ["BANANA", "APPLE", "CHERRY","AUXIN"]
 
 # Convert all strings to lowercase and strip any trailing spaces
 lowercase_strings = [s.lower() for s in string_list]
