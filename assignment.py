@@ -1,7 +1,7 @@
-string_list = ["BANANA", "APPLE", "CHERRY"]
+string_list = ["BANANA", "APPLE", "CHERRY","Auxin"]
 
 # Convert all strings to lowercase and strip any trailing spaces
-lowercase_strings = [s.lower().strip() for s in string_list]
+lowercase_strings = [s.lower() for s in string_list]
 
 # Sort the list alphabetically
 sorted_strings = sorted(lowercase_strings)
