@@ -1,2 +1,3 @@
 message=input()
-print=(message)
+new_message=message.replace(" ","...")
+print=(new_message)
