@@ -1,2 +1,2 @@
 message=input()
-print=(message)
+print(message)
