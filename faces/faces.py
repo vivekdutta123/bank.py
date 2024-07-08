@@ -7,3 +7,4 @@ def convert(message):
     msg2=message.replace(":(","🙁")
     return msg2
 main()
+
