@@ -4,4 +4,4 @@ def main():
 print(result)
 def convert(message):
     msg1=message.replace(":)","🙂")
-    
+    msg2=message.replace(":(",))
