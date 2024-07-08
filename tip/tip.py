@@ -14,7 +14,7 @@ def dollars_to_float(d):
 def percent_to_float(p):
     #Remove the trailing '%' and convert the remaining string to a float, then divide by 100 to get the percentage
     p_without_parcent=p.replace("%"," ")
-    p_converted=p_without_percent/ 100
+    p_converted=float(p_without_percent)/ 100
     return p_converted
 
 
