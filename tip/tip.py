@@ -6,11 +6,13 @@ def main():
 
 
 def dollars_to_float(d):
-    # TODO
+    d_without_dollar_sign=d.replace("$"," ")
+    return float(d_without_dollar_sign)
 
 
 def percent_to_float(p):
-    # TODO
+    p_without_parcent=p.replace("%"," ")
+    p_converted
 
 
 main()
