@@ -1,4 +1,4 @@
-mass=int(input("enter a number-"))
+mass=int(input("enter a mass-"))
 c=300000000
 Energy=mass *c *c
-print(E)
+print(Energy)
