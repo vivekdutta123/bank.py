@@ -6,11 +6,13 @@ def main():
 
 
 def dollars_to_float(d):
+    # Remove the leading '$' and convert the remaining string to a float
     d_without_dollar_sign=d.replace("$"," ")
     return float(d_without_dollar_sign)
 
 
 def percent_to_float(p):
+    #Remove the trailing '%' and convert the remaining string to a float, then divide by 100 to get the percentage
     p_without_parcent=p.replace("%"," ")
     p_converted=p_without_percent/ 100
     return p_converted
