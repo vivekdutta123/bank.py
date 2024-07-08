@@ -5,3 +5,5 @@ print(result)
 def convert(message):
     msg1=message.replace(":)","🙂")
     msg2=message.replace(":(","🙁")
+    return msg2
+main()
