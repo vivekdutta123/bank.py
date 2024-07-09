@@ -5,4 +5,4 @@ def even_numbers(a,b):
 
 even_numbers(1, 10)
 #sorted string
-string_list=
+string_list=green-red-yellow-black-white
