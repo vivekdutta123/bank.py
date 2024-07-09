@@ -5,9 +5,12 @@ def even_numbers(a,b):
 even_numbers(1, 10)
 
 #sorted string
-def sort_hypen(string_list):
- words=string_list.split("-")
- sorted_words=sorted(words)
- string_list=green-red-yellow-black-white
- sorted_string=string_list(sorted)
- print(sorted_string)
+def sort_hyphen(string_list):
+    print("enter a string:-")
+    words = string_list.split("-")  # Split the string by hyphen
+    sorted_words = sorted(words)    # Sort the list of words
+    sorted_string = "-".join(sorted_words)  # Join the sorted words with hyphens
+    print(sorted_string)
+
+
+
