@@ -7,6 +7,6 @@ b = int(input("Enter the second number: "))
 c = int(input("Enter the third number: "))
 
 max_num = find_maximum(a, b, c)
-print(f"The maximum number is: {max_num}")
+print("The maximum number is",max_num)
 
 
