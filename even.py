@@ -3,5 +3,4 @@ def even_numbers(a,b):
         if number % 2 == 0:
             print(number)
 
-# Example usage:
 even_numbers(1, 10)
