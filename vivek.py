@@ -1,6 +1,12 @@
-def max(a, b, c):
- a = int(input("Enter the first number: "))
- b = int(input("Enter the second number: "))
- c = int(input("Enter the third number: "))
- return max(a,b,c)
+def find_maximum(a, b, c):
+    return max(a, b, c)
+
+# Example usage
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+c = int(input("Enter the third number: "))
+
+max_num = find_maximum(a, b, c)
+print(f"The maximum number is: {max_num}")
+
 
