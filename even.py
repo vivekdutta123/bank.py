@@ -5,11 +5,16 @@ def even_numbers(a,b):
 even_numbers(1, 10)
 
 #sorted string
-def sort_hyphen(string_list):
-    words = string_list.split("-") 
-    sorted_words = sorted(words)
-    sorted_string = "-".join(sorted_words)
-    print(sorted_string)
+sample_string = input("Enter a space-separated sequence of words: ")
 
+# Split the input string into words
+words = sample_string.split(")
 
+# Sort the list of words
+sorted_words = sorted(words)
 
+# Join the sorted list of words into a single string with spaces
+sorted_string = " ".join(sorted_words)
+
+# Print the sorted string
+print(sorted_string)
