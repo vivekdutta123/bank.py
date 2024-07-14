@@ -5,7 +5,7 @@ def compute_pay(hours, rate):
         overtime_pay = 40 * 0.5 * rate
         total_pay = regular_pay + overtime_pay
     else:
-        total_pay = regular_pay * rate
+        total_pay = hours * rate
     return total_pay
 
 
