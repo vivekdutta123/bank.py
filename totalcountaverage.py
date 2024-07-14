@@ -19,6 +19,6 @@ if count > 0:
 else:
     average = 0
 
-print(f"Total: {total}")
-print(f"Count: {count}")
-print(f"Average: {average}")
+print("Total",Total)
+print("count",count)
+print("Average", Average)
