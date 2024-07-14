@@ -19,6 +19,6 @@ if count > 0:
 else:
     average = 0
 
-print("Total",Total)
+print("Total",total)
 print("count",count)
-print("Average", Average)
+print("Average", average)
