@@ -19,7 +19,7 @@ try:
         # Compute the grade using the function
         grade = compute_grade(score)
         # Output the grade
-        print(f"Grade: {grade}")
+        print("Grade",grade)
     else:
         print("Score must be between 0 and 100.")
 except ValueError:
