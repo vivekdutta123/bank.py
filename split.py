@@ -1,5 +1,4 @@
-ef extract_unique_words(filename):
-  """Extracts unique words from a file and prints them sorted."""
+def extract_unique_words(filename):
 
   unique_words = []
 
