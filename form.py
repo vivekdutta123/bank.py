@@ -6,11 +6,5 @@ for line in fh:
     if line startwith("from")
     word=line.split()
     for word in words:
-        if word not in unique_words:
-            unique_words.append(word)
-fh.close()
-
-unique_words.sort()
-print("Unique words in alphabetical order:")
-for word in unique_words:
-    print(word)
+       for word in words[1:]:
+                print(word)
