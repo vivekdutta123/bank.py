@@ -1,5 +1,5 @@
 filename = input("Enter the filename: ")
 fh=open(filename)
-for fh in line:
+for line in fh:
     fx=line.rstrip()
     print(fx.upper())
