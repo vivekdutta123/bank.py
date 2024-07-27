@@ -1,5 +1,5 @@
 # Open the file
-filename = 'yourfile.txt'  # Replace with your file name
+filename = 'example.txt'  # Replace with your file name
 
 try:
     with open(filename, 'r') as file:
