@@ -1,5 +1,5 @@
 filename = input("Enter the filename: ")
-with open(filename, 'r') as fh:
+fh= open(filename, 'r')
     for line in fh:
         fx = line.rstrip()
         if fx.startswith("from"):
