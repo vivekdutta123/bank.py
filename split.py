@@ -10,3 +10,6 @@ for line in fh:
          words.append(word)
 fh close()
 words.sort()
+print("Unique words in alphabetical order:")
+for word in words:
+    print(word)
