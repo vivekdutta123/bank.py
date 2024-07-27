@@ -1,8 +1,8 @@
-# Define the file path
-file_path = 'example.txt'  # Replace 'example.txt' with your file name
+filename = input("Enter the filename: ")
 
-# Open the file in read mode
-with open(file_path, 'r') as file:
-    # Read and print each line in uppercase
+try:
+  with open(filename, 'r') as file:
     for line in file:
-        print(line.upper().strip())
+      print(line.upper().rstrip())
+except FileNotFoundError:
+  print(f"Error: File '{filename}' not found.")
