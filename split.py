@@ -1,16 +1,16 @@
 filename = input("Enter the filename: ")
-unique_words = []
+list = []
 
 fh = open(filename)
 for line in fh:
     fx = line.rstrip()
     words = fx.split()
-    for word in words:
-        if word not in unique_words:
-            unique_words.append(word)
+    for word in list:
+        if word not in list:
+            list.append(word)
 fh.close()
 
-unique_words.sort()
+list.sort()
 print("Unique words in alphabetical order:")
-for word in unique_words:
+for word in list:
     print(word)
