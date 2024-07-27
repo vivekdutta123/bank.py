@@ -1,18 +1,29 @@
-def extract_unique_words(filename):
+# Prompt the user for the filename
+filename = input("Enter the filename: ")
 
-  unique_words = []
+# Initialize an empty list to store unique words
+unique_words = []
 
-  with open(filename, 'r') as file:
+# Open the file
+with open(filename, 'r') as file:
+    # Read each line in the file
     for line in file:
-      words = line.split()
-      for word in words:
-        if word not in unique_words:
-          unique_words.append(word)
+        # Remove any trailing whitespace and split the line into words
+        words = line.rstrip().split()
 
-  unique_words.sort()
-  print(unique_words)  
+        # Check each word
+        for word in words:
+            # Convert the word to lowercase to ensure case-insensitive comparison
+            word = word.lower()
 
+            # Add the word to the list if it's not already present
+            if word not in unique_words:
+                unique_words.append(word)
 
-if __name__ == "__main__":
-  filename = input("Enter the filename: ")
-  extract_unique_words(filename)
+# Sort the unique words in alphabetical order
+unique_words.sort()
+
+# Print the sorted unique words
+print("Unique words in alphabetical order:")
+for word in unique_words:
+    print(word)
