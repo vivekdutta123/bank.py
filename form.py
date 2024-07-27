@@ -1,5 +1,5 @@
 # Open the file
-filename = 'example.txt'  # Replace with your file name
+filename = 'yourfile.txt'  # Replace with your file name
 
 try:
     with open(filename, 'r') as file:
@@ -13,4 +13,3 @@ try:
                     print(' '.join(words[1:]))
 except FileNotFoundError:
     print(f"File {filename} not found.")
-
