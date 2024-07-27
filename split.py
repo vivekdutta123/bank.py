@@ -1,5 +1,5 @@
 filename=input("enter a file name")
-words[]
+words=[]
 fh=open(filename)
 for line in fh:
    fx= fh.rstrip()
