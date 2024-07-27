@@ -1,16 +1,19 @@
-filename = input("Enter the filename: ")
-list = []
+ef extract_unique_words(filename):
+  """Extracts unique words from a file and prints them sorted."""
 
-fh = open(filename)
-for line in fh:
-    fx = line.rstrip()
-    words = fx.split()
-    for word in list:
-        if word not in list:
-            list.append(word)
-fh.close()
+  unique_words = []
 
-list.sort()
-print("list in alphabetical order:")
-for word in list:
-    print(word)
+  with open(filename, 'r') as file:
+    for line in file:
+      words = line.split()
+      for word in words:
+        if word not in unique_words:
+          unique_words.append(word)
+
+  unique_words.sort()
+  print(unique_words)  
+
+
+if __name__ == "__main__":
+  filename = input("Enter the filename: ")
+  extract_unique_words(filename)
