@@ -11,6 +11,6 @@ for line in fh:
 fh.close()
 
 list.sort()
-print("Unique words in alphabetical order:")
+print("list in alphabetical order:")
 for word in list:
     print(word)
