@@ -4,7 +4,7 @@ fh = open(filename,'r')
 for line in fh:
     fx = line.rstrip()
     if line startwith("from")
-    word=line.split
+    word=line.split()
     for word in words:
         if word not in unique_words:
             unique_words.append(word)
