@@ -11,7 +11,7 @@ elif ".jpeg" in new_filename:
 elif ".pdf" in new_filename:
     print("application/pdf")
 elif ".zip" in new_filename:
-    print("application/.zip")
+    print("application/zip")
 elif ".txt" in new_filename:
     print("text/plain")
 else:
