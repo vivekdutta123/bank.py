@@ -5,7 +5,7 @@ if .gif in new_filename:
 if .png in new_filename:
     print("image/.png")
 if .jpg in new_filename:
-    print("image/.jpg")
+    print("image/.jpeg")
 if .jpeg in new_filename:
     print("image/.jpeg")
 if .pdf in new_filename:
