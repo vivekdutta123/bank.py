@@ -13,6 +13,6 @@ elif ".pdf" in new_filename:
 elif ".zip" in new_filename:
     print("application/.zip")
 elif ".txt" in new_filename:
-    print("txt/.plain")
+    print("txt/plain")
 else:
     print("application/octet-stream")
