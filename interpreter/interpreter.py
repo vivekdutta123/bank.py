@@ -6,4 +6,7 @@ if y == "+":
     result=new_x+new_z
 if y == "-":
     result=new_x-new_z
-
+if y == "*":
+    result=new_x*new_z
+if y == "/":
+    result=new_x/new_z
