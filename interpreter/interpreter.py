@@ -3,5 +3,7 @@ x,y,z=expression.split(" ")
 new_x=float(x)
 new_z=float(z)
 if y == "+":
-    result=new_
+    result=new_x+new_z
+if y == "-":
+    result=new_x-new_z
 
