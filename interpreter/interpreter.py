@@ -10,4 +10,6 @@ elif y == "*":
     result=new_x*new_z
 elif y == "/":
     result=new_x/new_z
+else:
+    print("invalid opera)
 print(round(result,1))
