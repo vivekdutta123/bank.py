@@ -11,5 +11,5 @@ elif y == "*":
 elif y == "/":
     result=new_x/new_z
 else:
-    print("invalid opera)
+    print("invalid operaator")
 print(round(result,1))
