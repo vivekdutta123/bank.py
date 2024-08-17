@@ -33,12 +33,12 @@
     #try:
         #value = float(inp)
         #total = total + value
-        count = count + 1
-    except ValueError:
-        print("Invalid input, please enter a number.")
+        #count = count + 1
+    #except ValueError:
+       # print("Invalid input, please enter a number.")
 
-if count > 0:
-    average = total / count
-    print('Average:', average)
-else:
-    print("No numbers were entered.")
+#if count > 0:
+    #average = total / count
+    #print('Average:', average)
+#else:
+   # print("No numbers were entered.")
