@@ -10,6 +10,7 @@ while ch ==y:
     ch=int(input("do you want to enter a element (yes/no)?")).lower()
 print("list is",a)
 #to print factorial
+fact[]
 for i in a:
     f=1
     for j in range(1,i+1):
