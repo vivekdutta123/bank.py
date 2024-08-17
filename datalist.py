@@ -21,18 +21,22 @@
     #fact.append(f)
 
 #print("Factorial of the numbers is", fact)
-total=0
-count=0
+total = 0
+count = 0
+
 while True:
-    inp=input("enter a number:")
-    if inp.lower()=="done":
+    inp = input("Enter a number: ")
+
+    if inp.lower() == "done":
         break
-try:
-    value=float(inp)
-    total=total+value
-    count=count+1
-except:
-    print("invalid input, please enter a number")
+
+    try:
+        value = float(inp)
+        total = total + value
+        count = count + 1
+    except ValueError:
+        print("Invalid input, please enter a number.")
+
 if count > 0:
     average = total / count
     print('Average:', average)
