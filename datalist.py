@@ -1,20 +1,23 @@
 #datalist=[1234,11.23,1+2j]
 #for item in datalist:
     #print("type of item is",item,type(item))
-f=[]
-a=[]
-while ch ==y:
-    print ch.lower()
-    item=int(input("enter a item of a list"))
-    a.append(item)
-    ch=int(input("do you want to enter a element (yes/no)?")).lower()
-print("list is",a)
-#to print factorial
-fact[]
-for i in a:
-    f=1
-    for j in range(1,i+1):
-        f*=j
+f = []
+a = []
+ch = "y"
 
-fact.append(f)
-print("factorial of a number is",fact)
+while ch.lower() == "y":
+    item = int(input("Enter an item for the list: "))
+    a.append(item)
+    ch = input("Do you want to enter another element (yes/no)? ").lower()
+
+print("List is", a)
+
+# To print factorial
+fact = []
+for i in a:
+    f = 1
+    for j in range(1, i + 1):
+        f *= j
+    fact.append(f)
+
+print("Factorial of the numbers is", fact)
