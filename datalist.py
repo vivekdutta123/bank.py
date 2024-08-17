@@ -31,4 +31,5 @@ try:
     value=float(inp)
     total=total+value
     count=total+1
-    
+except:
+    print("invalid input, please entera number")
