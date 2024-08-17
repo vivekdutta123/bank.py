@@ -28,4 +28,7 @@ while True:
     if inp.lower()="done":
         break
 try:
+    value=float(inp)
+    total=total+value
+    count=total+1
     
