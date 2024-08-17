@@ -3,4 +3,4 @@ n=[]
 #list of element inputed by user
 for_in range(1,a+1):
   element=int(input("enter a element"))
-n.append("element")
+  n.append("element")
