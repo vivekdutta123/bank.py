@@ -1,4 +1,4 @@
 my_list = ["vivek", "tarun", "bhawesh", "gyanti"]
-for i in range (len(numbers)):
-    number[i]= number[i]*2# The index 4 is exclusive, so this will include elements at indices 2 and 3.
-print(number)  # Output: ['bhawesh', 'gyanti']
+for i in range(len(my_list)):
+    my_list[i] = my_list[i] * 2  # This will repeat each string
+print(my_list)  # Output: ['vivekvivek', 'taruntarun', 'bhaweshbhawesh', 'gyantigyanti']
