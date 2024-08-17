@@ -11,4 +11,8 @@ for _ in range(limit):  # Loop runs 'limit' times
 # Display the list of elements
 print("List of elements:", n)
 #short list using bubble sort
+a=len(n)
+for i in range(n):
+    for j in range(0,n-i-1):
+if 1st[j]> 1st[j+1]
 
