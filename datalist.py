@@ -42,3 +42,10 @@
     #print('Average:', average)
 #else:
    # print("No numbers were entered.")
+numlist=[]
+while True:
+    inp=input("Enter a number:")
+    if inp.lower()=="done":
+        break
+    try:
+        
