@@ -6,3 +6,5 @@ a=[]
 while ch ==y:
     print ch.lower()
     item=int(input("enter a item of a list"))
+    a.append(item)
+    ch=int(input("do you want to enter a element (yes/no)?"))
