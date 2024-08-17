@@ -22,6 +22,6 @@
 
 #print("Factorial of the numbers is", fact)
 t = ["a", "b", "c"]
-del t[0:2]
+del t[0:1]
 print(t)
 
