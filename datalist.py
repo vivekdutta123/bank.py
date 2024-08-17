@@ -32,7 +32,7 @@ try:
     total=total+value
     count=total+1
 except:
-    print("invalid input, please entera number")
+    print("invalid input, please enter a number")
 if count > 0:
     average = total / count
     print('Average:', average)
