@@ -15,4 +15,5 @@ for i in a:
     for j in range(1,i+1):
         f*=j
 
-f.append()
+fact.append(f)
+print("factorial of a number is",fact)
