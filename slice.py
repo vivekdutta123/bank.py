@@ -12,8 +12,8 @@ for _ in range(limit):  # Loop runs 'limit' times
 print("List of elements:", n)
 #short list using bubble sort
 a=len(n)
-for i in range(n):
-    for j in range(0,n-i-1):
+for i in range(a):
+    for j in range(0,a-i-1):
       if n[j]> n[j+1]:
          n[j]+n[j+1] = n[j+1]+n[j]
-print("after sorting of list".n)
+print("after sorting of list",n)
