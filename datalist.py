@@ -22,6 +22,6 @@
 
 #print("Factorial of the numbers is", fact)
 t = ["a", "b", "c"]
-t.remove("b")  # "d" is not in the list, so this raises a ValueError
+del t["1:2"] # "d" is not in the list, so this raises a ValueError
 print(t)  # Output: list.remove(x): x not in list
 
