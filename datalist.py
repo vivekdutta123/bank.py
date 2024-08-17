@@ -30,7 +30,7 @@ while True:
 try:
     value=float(inp)
     total=total+value
-    count=total+1
+    count=count+1
 except:
     print("invalid input, please enter a number")
 if count > 0:
