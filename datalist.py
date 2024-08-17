@@ -8,3 +8,4 @@ while ch ==y:
     item=int(input("enter a item of a list"))
     a.append(item)
     ch=int(input("do you want to enter a element (yes/no)?"))
+print("list is",a)
