@@ -10,3 +10,5 @@ for _ in range(limit):  # Loop runs 'limit' times
 
 # Display the list of elements
 print("List of elements:", n)
+#short list using bubble sort
+
