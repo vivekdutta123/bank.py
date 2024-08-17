@@ -22,5 +22,5 @@
 
 #print("Factorial of the numbers is", fact)
 a=[1,2,3,4,5]
-h=a.append(a)
-print(h)
+a.append(8)
+print(a)
