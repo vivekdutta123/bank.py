@@ -21,7 +21,7 @@
     #fact.append(f)
 
 #print("Factorial of the numbers is", fact)
-t = ["a", "b", "c"]
-del t[0:1]
-print(t)
-
+total=0
+count=0
+while True:
+    inp=
