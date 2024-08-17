@@ -16,4 +16,4 @@ for i in range(n):
     for j in range(0,n-i-1):
       if nst[j]> nst[j+1]:
          nst[j]+nst[j+1] = nst[j+1]+nst[j]
-print("after sorting of list".nst)
+print("after sorting of list".n)
