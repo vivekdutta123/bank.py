@@ -21,6 +21,7 @@
     #fact.append(f)
 
 #print("Factorial of the numbers is", fact)
-t=["a","b","c"]
-t.remove(a)
-print(t)
+t = ["a", "b", "c"]
+t.remove("b")  # "d" is not in the list, so this raises a ValueError
+print(e)  # Output: list.remove(x): x not in list
+
