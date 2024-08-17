@@ -21,3 +21,6 @@
     #fact.append(f)
 
 #print("Factorial of the numbers is", fact)
+t=["a","b","c"]
+t.remove(a)
+print(t)
