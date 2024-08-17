@@ -47,5 +47,7 @@ while True:
     inp=input("Enter a number:")
     if inp.lower()=="done":
         break
-    try:
-        
+  value=float(inp)
+  numlist.append(value)
+average=sum(numlist)/len(numlist)
+print("average", average)
