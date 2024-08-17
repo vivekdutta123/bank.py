@@ -24,4 +24,8 @@
 total=0
 count=0
 while True:
-    inp=
+    inp=input("enter a number:")
+    if inp.lower()="done":
+        break
+try:
+    
