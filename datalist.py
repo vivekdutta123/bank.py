@@ -25,7 +25,7 @@ total=0
 count=0
 while True:
     inp=input("enter a number:")
-    if inp.lower()="done":
+    if inp.lower()=="done":
         break
 try:
     value=float(inp)
@@ -33,3 +33,8 @@ try:
     count=total+1
 except:
     print("invalid input, please entera number")
+if count > 0:
+    average = total / count
+    print('Average:', average)
+else:
+    print("No numbers were entered.")
