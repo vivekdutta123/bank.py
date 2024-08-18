@@ -32,8 +32,12 @@
         #print(line)
 
 #fh.close()
-filename = input("Enter a filename: ")
-fh = open(filename, "w")
-print(fh)
-fh.close()
+#filename = input("Enter a filename: ")
+#fh = open(filename, "w")
+#print(fh)
+#fh.close()
+
+with open('destination.txt', 'w') as fout:
+    line1 = "This here's the wattle,\n"
+    fout.write(line1)
 
