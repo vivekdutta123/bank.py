@@ -1,5 +1,6 @@
 # Open the file "destination.txt"
-fhand = open("destination.txt")
+filename = input("Enter the filename: ")
+fh=open(filename)
 count = 0
 
 # Loop through each line in the file
