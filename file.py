@@ -17,8 +17,10 @@
 #print("line count:",count )
 filename = input("Enter the filename: ")
 fh = open(filename)
+
 for line in fh:
-    line=line.rstrip()
-    if line.startwith("Hellow"):
+    line = line.rstrip()  
+    if line.startswith("Hellow"):
         print(line)
 
+fh.close()
