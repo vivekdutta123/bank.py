@@ -23,12 +23,14 @@
         #print(line)
 
 #fh.close()
-filename = input("Enter the filename: ")
-fh = open(filename)
+#filename = input("Enter the filename: ")
+#fh = open(filename)
 
-for line in fh:
-    line = line.rstrip()  # Remove trailing whitespace, including newline characters
-    if line.find("Hellow") != -1:  # Check if "Hellow" is present in the line
-        print(line)
+#for line in fh:
+    #line = line.rstrip()  # Remove trailing whitespace, including newline characters
+    #if line.find("Hellow") != -1:  # Check if "Hellow" is present in the line
+        #print(line)
 
-fh.close()
+#fh.close()
+fliname=input("enter a filename:")
+fh=open(filename)
