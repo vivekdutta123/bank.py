@@ -32,6 +32,8 @@
         #print(line)
 
 #fh.close()
-fliname=input("enter a filename:")
-fh=open(filename,"w")
+filename = input("Enter a filename: ")
+fh = open(filename, "w")
 print(fh)
+fh.close()
+
