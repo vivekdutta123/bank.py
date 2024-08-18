@@ -15,12 +15,20 @@
 #for line in fh:
     #count=count+1
 #print("line count:",count )
+#fh = open(filename)
+
+#for line in fh:
+    #line = line.rstrip()
+    #if line.startswith("Hellow"):
+        #print(line)
+
+#fh.close()
 filename = input("Enter the filename: ")
 fh = open(filename)
 
 for line in fh:
-    line = line.rstrip()  
-    if line.startswith("Hellow"):
+    line = line.rstrip()
+    if line.find("Hellow"):
         print(line)
 
 fh.close()
