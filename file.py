@@ -22,7 +22,7 @@ fh = open(filename)
 for line in fh:
     # Check if the line starts with "Hellow"
     if line.startswith("Hellow"):
-        print(line.strip())  # .strip() removes leading/trailing whitespace
+        print(line.rstrip())  # .strip() removes leading/trailing whitespace
 
 # Close the file after processing
 fh.close()
