@@ -17,11 +17,8 @@
 #print("line count:",count )
 filename = input("Enter the filename: ")
 fh = open(filename)
-# Loop through each line in the file
 for line in fh:
-    # Check if the line starts with "Hellow"
-    if line.startswith("Hellow"):
-        print(line.rstrip())  # .strip() removes leading/trailing whitespace
+    line=line.rstrip()
+    if line.startwith("Hellow"):
+        print(line)
 
-# Close the file after processing
-fh.close()
