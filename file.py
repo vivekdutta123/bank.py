@@ -1,2 +1,2 @@
-fhand=open("Rj kar.txt")
+fhand=open("Rj.txt")
 print(fhand)
